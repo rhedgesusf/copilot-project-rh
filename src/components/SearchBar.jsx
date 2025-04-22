@@ -10,6 +10,7 @@ function SearchBar({ onSearch }) {
   }
 
   return (
+    // Create a search input and button that triggers a fetch on submit 
     <div className="search-bar">
       <input
         type="text"

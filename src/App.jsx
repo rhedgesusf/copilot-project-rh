@@ -17,8 +17,9 @@ function App() {
   const [searchTerm, setSearchTerm] = useState('')
 
   const fetchQuote = async () => {
+    // Fetch a random quote from the Quotable API and store it in state
     try {
-      const response = await fetch('https://api.quotable.io/random');
+      const response = await fetch('http://api.quotable.io/random');
       console.log(response);
       const data = await response.json();
       setQuote(data.content);
