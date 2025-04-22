@@ -1,0 +1,13 @@
+.search-bar {
+  margin: 16px 0;
+  text-align: center;
+}
+
+.search-bar input {
+  padding: 8px;
+  font-size: 1rem;
+  width: 80%;
+  max-width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
